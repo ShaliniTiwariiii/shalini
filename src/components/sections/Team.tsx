@@ -6,23 +6,11 @@ import { Linkedin, Twitter, Github } from 'lucide-react';
 
 const team = [
   {
-    name: 'Sarah Chen',
+    name: 'Shalini Tiwari',
     role: 'Lead Full Stack Engineer',
     bio: 'Former senior engineer at top tech companies. Passionate about React, performance optimization, and mentoring women in tech.',
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=400',
-  },
-  {
-    name: 'Elena Rodriguez',
-    role: 'UI/UX Design Lead',
-    bio: 'Award-winning designer with an eye for modern, accessible interfaces. She ensures every CodeHer project is a visual masterpiece.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400&h=400',
-  },
-  {
-    name: 'Aisha Patel',
-    role: 'Backend Systems Architect',
-    bio: 'Specialist in cloud infrastructure and scalable APIs. Aisha builds the robust foundations that power our client applications.',
-    image: 'https://images.unsplash.com/photo-1531123897727-8f129e1bfa82?auto=format&fit=crop&q=80&w=400&h=400',
-  },
+  }
 ];
 
 export default function Team() {

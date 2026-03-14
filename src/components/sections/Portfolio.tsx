@@ -6,10 +6,10 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Lumina Real Estate',
+    title: 'KMD Real Estate Vrindavan',
     category: 'Real Estate Website',
     image: '/portfolio-real-estate.png',
-    link: '#',
+    link: 'https://kmdrealestatevrindavan.com/',
   },
   {
     title: 'Nexus SaaS Platform',
@@ -65,6 +65,8 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-background/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-full font-medium transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:bg-primary/90"
                   >
                     View Project <ExternalLink className="w-4 h-4" />
