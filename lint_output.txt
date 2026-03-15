@@ -1,0 +1,18 @@
+
+> temp@0.1.0 lint
+> eslint
+
+
+C:\Users\ADMIN\Desktop\ShaliniProfile\src\components\sections\Contact.tsx
+  36:18  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ADMIN\Desktop\ShaliniProfile\src\components\sections\Portfolio.tsx
+  42:63  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ADMIN\Desktop\ShaliniProfile\src\components\sections\Testimonials.tsx
+  38:18  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  62:17  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  62:39  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+✖ 5 problems (5 errors, 0 warnings)
+
